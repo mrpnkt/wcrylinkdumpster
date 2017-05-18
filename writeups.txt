@@ -1,0 +1,66 @@
+Wana Decrypt0r Ransomware Using NSA Exploit Leaked by Shadow Brokers Is on a Rampage
+https://www.bleepingcomputer.com/news/security/wana-decrypt0r-ransomware-using-nsa-exploit-leaked-by-shadow-brokers-is-on-a-rampage/
+
+Player 3 Has Entered the Game: Say Hello to 'WannaCry'
+http://blog.talosintelligence.com/2017/05/wannacry.html
+
+The worm that spreads WanaCrypt0r
+https://blog.malwarebytes.com/threat-analysis/2017/05/the-worm-that-spreads-wanacrypt0r/
+
+EternalBlue SMB Exploit – WannaCry Ransomware
+https://threatprotect.qualys.com/2017/04/24/eternalblue-smb-exploit/
+
+¿Que sabemos? - Slides del webcast de SANS
+https://twitter.com/MalwareJake/status/863263885280673792
+
+WannaCryptor, o como un ransomware puso en jaque a empresas de todo el mundo en pocas horas
+https://blogs.protegerse.com/laboratorio/2017/05/13/wannacryptor-o-como-un-ransomware-puso-en-jaque-a-empresas-de-todo-el-mundo-en-pocas-horas/
+
+WanaCrypt0r 2.0 Ransomware
+https://id-ransomware.blogspot.com.es/2017/05/wanacrypt0r-20-ransomware.html
+
+Everything you need to knokw about the Wannacrypt Ransomware
+https://www.troyhunt.com/everything-you-need-to-know-about-the-wannacrypt-ransomware/
+
+Proud Moment: WannaCry Collaboration
+https://medium.com/@KyleHanslovan/proud-moment-wannacry-collaboration-e1f6fafe76dc
+
+WCry/WanaCry Ransomware Technical Analysis
+https://www.endgame.com/blog/wcrywanacry-ransomware-technical-analysis
+
+POC – WannaCrypt 2.0 – Análisis del Ransomware que ataca a organizaciones secuestrando su información
+https://www.ihacklabs.com/es/poc-wannacrypt-2-0-analisis-del-ransomware-que-ataca-a-organizaciones-secuestrando-su-informacion/
+
+WannaCry — Links to Lazarus Group
+Potential​ links to North Korea have been found.
+https://blog.comae.io/wannacry-links-to-lazarus-group-dcea72c99d2d /Attribution
+
+WannaCrypt 'may be the work of North Korea' theory floated
+Lazarus rising again... or not
+https://www.theregister.co.uk/2017/05/16/wannacrypt_north_korea_theory/ /Attribution
+
+Reflexiones tras WannaCryptor y el nuevo anuncio de The Shadow Brokers – Protegerse. Blog del laboratorio de Ontinet.com
+https://blogs.protegerse.com/laboratorio/2017/05/16/reflexiones-tras-wannacryptor-y-el-nuevo-anuncio-de-the-shadow-brokers/
+
+WannaCrypt0r Roundup
+https://krypt3ia.wordpress.com/2017/05/16/wannacrypt0r-roundup/
+
+Wcry ransomware – Additional analysis
+https://blog.nviso.be/2017/05/15/wcry-ransomware-additional-analysis/
+
+
+
+== Podcasts & Webcasts ==
+
+Kudelski Security Webcast
+https://resources.kudelskisecurity.com/wannacry-ransomware-ondemand?submissionGuid=545c2c8c-5d17-45e9-91f4-39cb30844884
+
+Webinar - WannaCry Group Therapy Webinar - Matt Suiche, Comae Technologies(@msuiche) and Juan Andres Guerrero-Saade, Kaspersky Lab (@juanandres_gs) (Video: https://www.youtube.com/watch?v=bZFNsxPJvCI&feature=youtu.be)
+https://github.com/comaeio/slides
+
+Risky.biz podcast
+https://risky.biz/RB455/
+
+== Industry Reactions ==
+
+http://www.securityweek.com/industry-reactions-wannacry-ransomware-attacks
