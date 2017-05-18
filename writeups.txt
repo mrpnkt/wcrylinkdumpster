@@ -48,6 +48,9 @@ https://krypt3ia.wordpress.com/2017/05/16/wannacrypt0r-roundup/
 Wcry ransomware – Additional analysis
 https://blog.nviso.be/2017/05/15/wcry-ransomware-additional-analysis/
 
+Not Just WannaCry: the EternalBlue Exploit Gives Rise to More Attacks
+http://www.pandasecurity.com/mediacenter/pandalabs/wannacry-eternalblue-exploit-more-attacks/
+
 == Podcasts & Webcasts ==
 
 SANS Webcast
