@@ -36,6 +36,9 @@ WannaCrypt 'may be the work of North Korea' theory floated
 Lazarus rising again... or not
 https://www.theregister.co.uk/2017/05/16/wannacrypt_north_korea_theory/ /Attribution
 
+BAE Systems Threat Research Blog: WanaCrypt0r Ransomworm
+https://baesystemsai.blogspot.it/2017/05/wanacrypt0r-ransomworm.html
+
 Reflexiones tras WannaCryptor y el nuevo anuncio de The Shadow Brokers – Protegerse. Blog del laboratorio de Ontinet.com
 https://blogs.protegerse.com/laboratorio/2017/05/16/reflexiones-tras-wannacryptor-y-el-nuevo-anuncio-de-the-shadow-brokers/
 
