@@ -1,0 +1,59 @@
+Ransom: between $300 to $600. There is code to 'rm' (delete) files in the virus. Seems to reset if the virus crashes.
+
+It seems even if you pay you have to negotiate and discuss with the human via the Contact us capability to get the machine decrypted.
+https://twitter.com/hackerfantastic/status/863176302148431873
+
+Q&A
+https://id-ransomware.blogspot.com.es/2017/05/wanacrypt0r-20-ransomware.html
+
+Q:  What's wrong with my files?
+A:  Ooops, your important files are encrypted. It means you will not be able to access them anymore until they are decrypted.
+    If you follow our instructions, we guarantee that you can decrypt all your files quickly and safely!
+    Let's start decrypting!
+Q:  What do I do?
+A:  First, you need to pay service fees for the decryption.
+    Please send $300 worth of bitcoin to this bitcoin address: 13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94
+    Next, please find an application file named "@WanaDecryptor@.exe". It is the decrypt software.
+    Run and follow the instructions! (You may need to disable your antivirus for a while.)
+Q:  How can I trust?
+A:  Don't worry about decryption.
+    We will decrypt your files surely because nobody will trust us if we cheat users.
+*   If you need our assistance, send a message by clicking <Contact Us> on the decryptor window.
+
+https://medium.com/threat-intel/wannacry-ransomware-decryption-821c7e3f0a2b
+
+
+[03:03:37] <@p1> And maybe the master key isn't on the onion server :<
+[03:04:11] <@p2> p1: oh there was a strange report from mikko hyponen
+[03:04:20] <@p2> he says hundreds of people have had sucessful decryption by paying
+[03:04:47] <@p2> .t https://twitter.com/mikko/status/864107673146490880
+[03:04:48] <+p3> We have confirmation that some of the 200+ #WannaCry victims who have paid the ransom have gotten their files back. Still, not recommended. (@mikko)
+[03:04:55] <@p2> and says its done manually
+[03:04:57] <@p1> ah, I mean, maybe the authors do decryption locally, and upload decrypted keys to the onion server
+
+Bitcoin Wallets
+
+https://blockchain.info/address/13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94
+https://blockchain.info/address/12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw
+https://blockchain.info/address/115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn
+
+
+http://www.securityweek.com/manhunt-hackers-behind-global-cyberattack
+
+https://misentropic.com/wannacry_graph.html
+
+get BTCs:
+
+#!/bin/sh
+
+curl -s "https://blockchain.info/q/getreceivedbyaddress/\
+13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94|\
+12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw|\
+115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn" |
+python -c 'import sys; r = sys.stdin.readline(); print float(r) / 100000000'
+
+
+Over the weekend, accounts set up to collect ransom payments had received smaller amounts than expected for an attack of this size. But by Monday morning, the balances were on the rise, suggesting that more people were responding to the ransom message Monday. On Saturday, three ransomware-associated wallets had received 92 bitcoin payments totaling $26,407.85 USD. By Sunday, the number between the three wallets was up to $30,706.61 USD. By Monday morning, 181 payments had been made totaling 29.46564365 BTC ($50,504.23 USD).
+
+The three bitcoin wallets had received 253 payments totaling 41.78807332 BTC ($71,647.06 USD) by Tuesday evening.
+https://nakedsecurity.sophos.com/2017/05/17/wannacry-the-ransomware-worm-that-didnt-arrive-on-a-phishing-hook/
