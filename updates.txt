@@ -70,3 +70,6 @@ https://twitter.com/gcluley/status/863862455855874049
 Cisco Warning
 https://www.theregister.co.uk/2017/05/17/cisco_warns_some_products_might_have_wannacrypt/
 https://tools.cisco.com/security/center/content/CiscoSecurityResponse/cisco-sr-20170515
+
+Telefónica WannaCry File Restorer ¿Cómo recuperar información borrada por WannaCry?
+http://blog.elevenpaths.com/2017/05/telefonica-wannacry-file-restorer-como.html
