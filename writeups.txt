@@ -10,9 +10,6 @@ https://blog.malwarebytes.com/threat-analysis/2017/05/the-worm-that-spreads-wana
 EternalBlue SMB Exploit – WannaCry Ransomware
 https://threatprotect.qualys.com/2017/04/24/eternalblue-smb-exploit/
 
-¿Que sabemos? - Slides del webcast de SANS
-https://twitter.com/MalwareJake/status/863263885280673792
-
 WannaCryptor, o como un ransomware puso en jaque a empresas de todo el mundo en pocas horas
 https://blogs.protegerse.com/laboratorio/2017/05/13/wannacryptor-o-como-un-ransomware-puso-en-jaque-a-empresas-de-todo-el-mundo-en-pocas-horas/
 
@@ -48,9 +45,10 @@ https://krypt3ia.wordpress.com/2017/05/16/wannacrypt0r-roundup/
 Wcry ransomware – Additional analysis
 https://blog.nviso.be/2017/05/15/wcry-ransomware-additional-analysis/
 
-
-
 == Podcasts & Webcasts ==
+
+SANS Webcast
+https://twitter.com/MalwareJake/status/863263885280673792
 
 Kudelski Security Webcast
 https://resources.kudelskisecurity.com/wannacry-ransomware-ondemand?submissionGuid=545c2c8c-5d17-45e9-91f4-39cb30844884
