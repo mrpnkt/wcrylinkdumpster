@@ -1,0 +1,72 @@
+SMB.
+https://support.microsoft.com/en-us/help/2696547/how-to-enable-and-disable-smbv1,-smbv2,-and-smbv3-in-windows-vista,-windows-server-2008,-windows-7,-windows-server-2008-r2,-windows-8,-and-windows-server-2012
+
+Filter all traffic from and to SMB (TCP/445), NetBIOS (TCP/139), RDP (TCP/3389)
+
+Create mutex "MsWinZonesCacheCounterMutexA" https://twitter.com/gN3mes1s/status/863149075159543808
+
+Update Windows.
+
+https://support.microsoft.com/kb/2696547 describes how to disable SMB v1 on supported Windows and Windows Server versions.
+
+Windows Vista with Service Pack 2 x86   KB4012598
+Windows Vista with Service Pack 2 x64   KB4012598
+Windows Server 2008 with Service Pack 2 x86 KB4012598
+Windows Server 2008 with Service Pack 2 x64 KB401259
+Windows 7 with Service Pack 1 x86   KB4012212 or KB4012215
+Windows 7 with Service Pack 1 x64   KB4012212 or KB4012215
+Windows Server 2008 R2 with Service Pack 1  KB4012212 or KB4012215
+Windows 8.1 x86 KB4012213 or KB4012216
+Windows 8.1 x64 KB4012213 or KB4012216
+Windows Server 2012 KB4012214 or KB4012217
+Windows Server 2012 R2  KB4012213 or KB4012216
+Windows 10 x86  KB4012606
+Windows 10 x64  KB4012606
+Windows 10 version 1511 x86 KB4013198
+Windows 10 version 1511 x64 KB4013198
+Windows 10 version 1607 x86 KB4013429
+Windows 10 version 1607 x64 KB4013429
+Windows Server 2016 KB4013429
+
+Technical info & Mitigation (Microsoft):
+https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+
+CCN-CERT recommends:
+
+Actualizar los sistemas a su última versión o parchear según informa el fabricante
+Para los sistemas sin soporte o parche se recomienda aislar de la red o apagar según sea el caso.
+Aislar la comunicación a los puertos 137 y 138 UDP y puertos 139 y 445 TCP en las redes de las organizaciones.
+Descubrir qué sistemas, dentro de su red, pueden ser susceptibles de ser atacados a través de la vulnerabilidad de Windows, en cuyo caso, puedan ser aislados, actualizados y/o apagados.
+
+https://www.ccn-cert.cni.es/seguridad-al-dia/comunicados-ccn-cert/4464-ataque-masivo-de-ransomware-que-afecta-a-un-elevado-numero-de-organizaciones-espanolas.html
+
+Buenas prácticas:
+https://www.ccn-cert.cni.es/informes/informes-ccn-cert-publicos/2091-ccn-cert-bp-04-16-ransomware-1/file.html
+
+Yara Rules:
+https://github.com/Neo23x0/signature-base/blob/master/yara/crime_wannacry.yar
+https://docs.google.com/spreadsheets/d/1XNCCiiwpIfW8y0mzTUdLLVzoW6x64hkHJ29hcQW5deQ/pubhtml#
+
+Sigma Rules:
+https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_malware_wannacrypt.yml
+https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_backup_delete.yml
+
+SIEM Rules:
+WannaCry no more: ransomware worm IOC's, Tor C2 and technical analysis + SIEM rules
+https://www.peerlyst.com/posts/wannacry-no-more-ransomware-worm-ioc-s-tor-c2-and-technical-analysis-siem-rules-andrii-bezverkhyi
+
+Detecting Wanacry con Splunk
+https://www.splunk.com/blog/2016/10/05/detecting-ransomware-attacks-with-splunk/
+
+SMB-Vuln MS17-010
+https://github.com/cldrn/nmap-nse-scripts/blob/master/scripts/smb-vuln-ms17-010.nse
+
+Wcry is so mean Microsoft issues patch 
+https://arstechnica.com/security/2017/05/wcry-is-so-mean-microsoft-issues-patch-for-3-unsupported-windows-versions/
+
+https://twitter.com/gcluley/status/863862455855874049
+
+Cisco Warning
+https://www.theregister.co.uk/2017/05/17/cisco_warns_some_products_might_have_wannacrypt/
+https://tools.cisco.com/security/center/content/CiscoSecurityResponse/cisco-sr-20170515
