@@ -22,6 +22,9 @@ hxxps://transfer.sh/PnDIl/CYBERed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e
 hxxps://transfer.sh/ZhnxR/CYBER1be0b96d502c268cb40da97a16952d89674a9329cb60bac81a96e01cf7356830.EXE (main dll)
 hxxps://transfer.sh/138W1c/wana.zip (Password:fucknsa)
 
+more:
+https://github.com/fabrimagic72/malware-samples/tree/master/Ransomware/Wannacry
+
 https://mega.nz/#!VRtRAaZD!BNcDDAsSSAyb7k3IBdTyy1E1CrOBF5RqVf7MlIFucEI (wcry.7z 3.3 MB) (pass mp @Estamos_Fuori)
 
 pass binary blob: 'WNcry@2ol7' (https://twitter.com/rikvduijn/status/863152470679318528)
