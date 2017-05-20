@@ -51,6 +51,9 @@ https://blog.nviso.be/2017/05/15/wcry-ransomware-additional-analysis/
 Not Just WannaCry: the EternalBlue Exploit Gives Rise to More Attacks
 http://www.pandasecurity.com/mediacenter/pandalabs/wannacry-eternalblue-exploit-more-attacks/
 
+How did the Wannacry ransomware spread
+https://blog.malwarebytes.com/cybercrime/2017/05/how-did-wannacry-ransomworm-spread/
+
 == Podcasts & Webcasts ==
 
 SANS Webcast
