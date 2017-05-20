@@ -65,6 +65,9 @@ https://resources.kudelskisecurity.com/wannacry-ransomware-ondemand?submissionGu
 Webinar - WannaCry Group Therapy Webinar - Matt Suiche, Comae Technologies(@msuiche) and Juan Andres Guerrero-Saade, Kaspersky Lab (@juanandres_gs) (Video: https://www.youtube.com/watch?v=bZFNsxPJvCI&feature=youtu.be)
 https://github.com/comaeio/slides
 
+How to Rapidly Identify Assets at Risk to WannaCry Ransomware
+https://www.brighttalk.com/webcast/11673/261293
+
 Risky.biz podcast
 https://risky.biz/RB455/
 
