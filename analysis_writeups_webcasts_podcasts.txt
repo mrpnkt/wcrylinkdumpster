@@ -71,6 +71,9 @@ https://www.brighttalk.com/webcast/11673/261293
 Risky.biz podcast
 https://risky.biz/RB455/
 
+Veracode Podcast: "Our Take on the WannaCry Ransomware Attack"
+https://www.veracode.com/blog/security-news/podcast-take-wannacry-ransomware-attack
+
 == Industry Reactions ==
 
 http://www.securityweek.com/industry-reactions-wannacry-ransomware-attacks
